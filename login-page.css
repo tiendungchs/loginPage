@@ -1,0 +1,165 @@
+html {
+    height: 100%;
+}
+  
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background: rgb(247,7,225);
+    background: linear-gradient(225deg, rgba(247,7,225,1) 0%, rgba(4,227,245,1) 100%);
+}
+
+#main-holder {
+    width: 50%;
+    height: 80%;
+    display: grid;
+    justify-items: center;
+    align-items: left;
+}
+
+#auth-form-container {
+    width: 50%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+    /* box-shadow: 0px 0px 5px 2px black; */
+}
+
+#login-error-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-radius:4px;
+}
+  
+#login-error-msg {
+    width: 80%;
+    text-align: left;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8a0000;
+    border: 1px solid #8a0000;
+    background-color: #e58f8f;
+    opacity: 0;
+}
+  
+#error-msg-second-line {
+    display: block;
+}
+
+#login-form {
+    align-self: flex-start;
+    display: block;
+    justify-items: center;
+    align-items: center;
+}
+
+.icon {
+    display: block;
+}
+
+.wrap-input {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #d9d9d9;
+    padding: 0 7px 0 20px;
+    margin-bottom: 23px;
+}
+  
+  
+
+.login-form-field {
+    border: none;
+    width: 70%;
+    height: 30px;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 0 7px 0 30px;
+}
+
+.text-right {
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+a {
+    font-size: 12px;
+    line-height: 1.7;
+    color:#666666;
+    cursor: pointer;
+    text-decoration: underline;
+    padding:0px;
+}
+
+.login-social {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #666666;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons {
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.bg1 {background-color: #3b5998}
+.bg2 {background-color: #1da1f2}
+.bg3 {background-color: #ea4335}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border-radius: 25px;
+    cursor: pointer;
+}
+  
+  
+.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+}
+  
+  
+  
+  
+  
+#login-btn {
+    background-image: linear-gradient(90deg, #84defa 0%, #fa84e8 100%);
+}
